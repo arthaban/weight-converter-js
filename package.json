@@ -1,0 +1,29 @@
+{
+  "name": "weight-converter-js",
+  "version": "0.1.0",
+  "description": "a simple kilogram to pound conversor",
+  "main": "dist/weight-comverter.js",
+  "scripts": {
+     "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthaban/weight-converter-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "weight",
+    "converter"
+  ],
+  "author": "Esteban Saravia <estebansaravia@gmail.com> (https://twitter.com/esaraviam)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthaban/weight-converter-js/issues"
+  },
+  "homepage": "https://github.com/arthaban/weight-converter-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
